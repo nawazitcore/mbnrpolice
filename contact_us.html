@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <meta name="format-detection" content="telephone=no" />
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <link rel="apple-touch-icon" href="assets/images/favicon/apple-touch-icon.png">
+   <link rel="icon" href="assets/images/favicon/favicon.png">
+   <title>Ministry | Department | GoI</title>
+
+   <!-- Custom styles for this template -->
+   <link href="assets/css/base.css" rel="stylesheet" media="all">
+   <link href="assets/css/base-responsive.css" rel="stylesheet" media="all">
+   <link href="assets/css/grid.css" rel="stylesheet" media="all">
+   <link href="assets/css/font.css" rel="stylesheet" media="all">
+   <link href="assets/css/font-awesome.min.css" rel="stylesheet" media="all">
+   <link href="assets/css/flexslider.css" rel="stylesheet" media="all">
+   <link href="assets/css/print.css" rel="stylesheet" media="print" />
+   <link href="assets/css/modules.css" rel="stylesheet" media="all">
+
+   <!-- Theme styles for this template -->
+   <link href="assets/css/megamenu.css" rel="stylesheet" media="all" />
+   <link href="theme/css/site.css" rel="stylesheet" media="all">
+   <link href="theme/css/site-responsive.css" rel="stylesheet" media="all">
+   <link href="theme/css/ma5gallery.css" rel="stylesheet" type="text/css">
+
+   <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+   <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+      body {
+          font-family: Arial, sans-serif;
+          margin: 20px;
+      }
+      table {
+          width: 100%;
+          border-collapse: collapse;
+          margin: 20px auto;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      th {
+          background-color: #004856 ;
+          color: white;
+          padding: 10px;
+          text-align: left;
+          font-size: 16px;
+      }
+      td {
+          padding: 10px;
+          text-align: left;
+          border: 1px solid #ddd;
+      }
+      tr:nth-child(even) {
+          background-color: #e0faff;
+      }
+      tr:nth-child(odd) {
+          background-color: #ffffff;
+      }
+      tr:hover {
+          background-color: #ffe5b4;
+          cursor: pointer;
+      }
+      caption {
+          font-size: 18px;
+          font-weight: bold;
+          margin-bottom: 10px;
+          color: #004856;
+      }
+  </style>
+
+</head>
+
+<body>
+   <!-- Header plus menu-->
+   <header>
+      <div class="region region-header-top">
+         <div id="block-cmf-content-header-region-block" class="block block-cmf-content first last odd">
+            <noscript class="no_scr">"JzavaScript is a standard programming language that is included to provide
+               interactive features, Kindly enable Javascript in your browser. For details visit help page"
+            </noscript>
+            <div class="wrapper common-wrapper">
+               <div class="container common-container four_content top-header">
+                  <div class="common-left clearfix">
+                     <ul>
+                        <li class="gov-india"><span class="responsive_go_hindi" lang="hi"><a target="_blank" href="#"
+                                 title="Telangana Police" role="link">Telangana Police</a></span> </li>
+                        <li class="ministry"><span class="li_eng responsive_go_eng"><a target="_blank" href="#"
+                                 title="Government of india,External Link that opens in a new window"
+                                 role="link">Telangana Police</a></span></li>
+                     </ul>
+                  </div>
+                  <div class="common-right clearfix">
+                     <ul id="header-nav">
+                        <li class="ico-skip cf"><a href="#skipCont" title="">Skip to main content</a>
+                        </li>
+                        <li class="ico-site-search cf">
+                           <a href="javascript:void(0);" id="toggleSearch" title="Site Search">
+                              <img class="top" src="assets/images/ico-site-search.png" alt="Site Search" /></a>
+                           <div class="search-drop both-search">
+                              <div class="google-find">
+                                 <form method="get" action="http://www.google.com/search" target="_blank">
+                                    <label for="search_key_g" class="notdisplay">Search</label>
+                                    <input type="text" name="q" value="" id="search_key_g" />
+                                    <input type="submit" value="Search" class="submit" />
+                                    <div class="">
+                                       <input type="radio" name="sitesearch" value="" id="the_web" />
+                                       <label for="the_web">The Web</label>
+                                       <input type="radio" name="sitesearch" value="india.gov.in" checked
+                                          id="the_domain" />
+                                       <label for="the_domain"> INDIA.GOV.IN</label>
+                                    </div>
+                                 </form>
+                              </div>
+                              <div class="find">
+                                 <form name="searchForm" action="">
+                                    <label for="search_key" class="notdisplay">Search</label>
+                                    <input type="text" name="search_key" id="search_key" onKeyUp="autoComplete()"
+                                       autocomplete="off" required />
+                                    <input type="submit" value="Search" class="bttn-search" />
+                                 </form>
+                                 <div id="auto_suggesion"></div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="ico-accessibility cf">
+                           <a href="javascript:void(0);" id="toggleAccessibility" title="Accessibility Dropdown"
+                              role="link">
+                              <img class="top" src="assets/images/ico-accessibility.png" alt="Accessibility Dropdown" />
+                           </a>
+                           <ul style="visibility: hidden;">
+                              <li> <a onClick="set_font_size(&#39;increase&#39;)" title="Increase font size"
+                                    href="javascript:void(0);" role="link">A<sup>+</sup>
+                                 </a>
+                              </li>
+                              <li> <a onClick="set_font_size()" title="Reset font size" href="javascript:void(0);"
+                                    role="link">A<sup>&nbsp;</sup></a> </li>
+                              <li> <a onClick="set_font_size(&#39;decrease&#39;)" title="Decrease font size"
+                                    href="javascript:void(0);" role="link">A<sup>-</sup></a> </li>
+                              <li> <a href="javascript:void(0);" class="high-contrast dark" title="High Contrast"
+                                    role="link">A</a> </li>
+                              <li> <a href="javascript:void(0);" class="high-contrast light" title="Normal Contrast"
+                                    style="display: none;" role="link">A</a> </li>
+                           </ul>
+                        </li>
+                        <li class="ico-social cf">
+                           <a href="javascript:void(0);" id="toggleSocial" title="Social Medias">
+                              <img class="top" src="assets/images/ico-social.png" alt="Social Medias" /></a>
+                           <ul>
+                              <li>
+                                 <a target="_blank" title="External Link that opens in a new window"
+                                    href="http://www.facebook.com/"><img alt="Facebook Page"
+                                       src="assets/images/ico-facebook.png"></a>
+                              </li>
+                              <li>
+                                 <a target="_blank" title="External Link that opens in a new window"
+                                    href="http://www.twitter.com/"><img alt="Twitter Page"
+                                       src="assets/images/ico-twitter.png"></a>
+                              </li>
+                              <li>
+                                 <a target="_blank" title="External Link that opens in a new window"
+                                    href="http://www.youtube.com/"><img alt="youtube Page"
+                                       src="assets/images/ico-youtube.png"></a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="ico-sitemap cf">
+                           <a href="" title="Sitemap">
+                              <img class="top" src="assets/images/ico-sitemap.png" alt="Sitemap" /></a>
+                        </li>
+                        <li class="hindi cmf_lan d-hide">
+                           <label class="de-lag">
+                              <span>Language</span>
+                              <select title="Select language">
+                                 <option>English</option>
+                                 <!-- Your comment here<option>हिन्दी</option> -->
+                              </select>
+                           </label>
+                        </li>
+                        <li class="hindi cmf_lan m-hide">
+                           <a href="javascript:;" title="Select Language">Language</a>
+                           <ul>
+                              <li><a target="_blank" href="" lang="hi" class="alink"
+                                    title="Click here for हिन्दी version.">हिन्दी</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <p id="scroll" style="display: none;"><span></span></p>
+      </div>
+      <!--Top-Header Section end-->
+      <section class="wrapper header-wrapper">
+         <div class="container common-container four_content header-container">
+            <h1 class="logo">
+               <a href="home.html" title="Home" rel="home" class="header__logo" id="logo">
+                  <img class="national_emblem" src="assets/images/telanganalogo.png" alt="national emblem">
+                  <p> </p>
+                  <span> </span>
+                  <span> MAHABUBNAGAR DISTRICT POLICE</span>
+               </a>
+            </h1>
+            <div class="header-right clearfix">
+               <div class="right-content clearfix">
+                  <div class="float-element">
+                     <a class="sw-logo" target="_blank" href="#" title="Mahabubnagar District Police"><img
+                           src="assets/images/mbnrlogo.png" alt="Mbnr Police"></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--/.header-wrapper-->
+      <section class="wrapper megamenu-wraper">
+         <div class="container common-container four_content">
+            <p class="showhide"><em></em><em></em><em></em></p>
+            <nav class="main-menu clearfix" id="main_menu">
+               <ul class="nav-menu">
+                  <li class="nav-item"> <a href="home.html" class="home"><span style="display: none;">home</span><i
+                           class="fa fa-home"></i></a> </li>
+                  <li class="nav-item"><a href="about.html">About</a></li>
+                  <li class="nav-item"><a href="organization_Structure.html">Organization Structure</a></li>
+                  <li class="nav-item">
+                     <a href="inner.html"> Citizen Services </a>
+                     <div class="sub-nav">
+                        <ul class="sub-nav-group">
+                           <li><a href="https://www.tspolice.gov.in/jsp/citizenLogin.do?method=viewLoginForm"
+                                 target="_blank">View / Print FIR</a></li>
+                           <li><a href="how_do_i_reportcrime.html">How do I report a crime</a></li>
+                           <li><a href="how_to_Obtain.html">How to Obtain</a></li>
+                           <li><a href="inner.html">Abondoned Vehicle's Aution</a></li>
+                        </ul>
+                     </div>
+                  </li>
+
+                  <li class="nav-item">
+                     <a href="inner.html"> Wings</a>
+                     <div class="sub-nav">
+                        <ul class="sub-nav-group">
+                           <li><a href="crime_branch.html">Crime Branch</a></li>
+                           <li><a href="itcell_branch.html">IT-Cell</a></li>
+                           <li><a href="traffic_branch.html">Traffic</a></li>
+                           <li><a href="she_team.html">She Team</a></li>
+                           <li><a href="communication.html">Communication</a></li>
+                           <li><a href="DPO_section.html">DPO</a></li>
+                           <li><a href="District_Armed_Reserved.html">District Armed Police</a></li>
+                        </ul>
+                     </div>
+                  </li>
+                  <li class="nav-item"><a href="know_your_ps.html">Known Your PS</a></li>
+                  <li class="nav-item"><a href="inner.html">Notifications</a></li>
+                  <li class="nav-item"><a href="contact_us.html">Contact Us</a></li>
+                  <li class="nav-item">
+                     <a href="inner.html"> Women's Corner</a>
+                     <div class="sub-nav">
+                        <ul class="sub-nav-group">
+                           <li><a href="inner.html">What’s New</a></li>
+                           <li><a href="inner.html">Awards</a></li>
+                           <li><a href="inner.html">Photo Gallery</a></li>
+                           <li><a href="inner.html">Video Gallery</a></li>
+                           <li><a href="inner.html">Press Release</a></li>
+                           <li><a href="inner.html">Speeches</a></li>
+                           <li><a href="inner.html">E-Book</a></li>
+                        </ul>
+                     </div>
+                  </li>
+                  
+               </ul>
+            </nav>
+            <nav class="main-menu clearfix" id="overflow_menu">
+               <ul class="nav-menu clearfix">
+               </ul>
+            </nav>
+         </div>
+         <style type="text/css">
+            body~.sub-nav {
+               right: 0
+            }
+         </style>
+      </section>
+   </header>
+   <!--/.nav-wrapper-->
+   <!--<section class="wrapper banner-wrapper">
+  <div id="flexSlider" class="flexslider">
+    	<div class="inner-banner"><img src="theme/images/banner/inner-banner.jpg" alt="Inner Banner of Consumer Affairs"></div>
+  </div>
+</section>
+<div class="wrapper" id="skipCont"></div>
+
+<!--/#skipCont-->
+   <section id="fontSize" class="wrapper body-wrapper ">
+      <div class="bg-wrapper inner-wrapper">
+         <div class="breadcam-bg breadcam">
+            <div class="container common-container four_content">
+               <ul>
+                  <li><a href="home.html">Home </a></li>
+                  <li><a href="#">Contact Us </a></li>
+               </ul>
+            </div>
+         </div>
+
+
+         <!--/#page-head-->
+
+         <section id="paragraph" class="wrapper paragraph-wrapper">
+            <div style="border: 5px solid #004856; padding: 20px; text-align: center; font-family: Arial, sans-serif;">
+               <div class="container common-container four_content">
+
+
+
+                  <table>
+                     <caption><h1 style="background-color:#004856;color: white; text-align-last: center; font-family: 'HELVITICA', sans-serif; border-radius: 15px;  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);">Mahabubnagar District Police Directory</h1></caption>
+                     <tr>
+                         <th>Sl.No</th>
+                         <th>Name of the Office</th>
+                         <th>Email Address</th>
+                         <th>Mobile</th>
+                     </tr>
+                     <tr>
+                         <td>1</td>
+                         <td>SP Office</td>
+                         <td>sp-mahabubnagar@tspolice.gov.in</td>
+                         <td>8712659333, 8712659345</td>
+                     </tr>
+                     <tr>
+                         <td>2</td>
+                         <td>Additional SP Office</td>
+                         <td>addlsp-admin-mbnr@tspolice.gov.in</td>
+                         <td>8712659301</td>
+                     </tr>
+                     <tr>
+                         <td>3</td>
+                         <td>SDPO Office</td>
+                         <td>sdpo-mbnr@tspolice.gov.in</td>
+                         <td>8712659310</td>
+                     </tr>
+                     <tr>
+                         <td>4</td>
+                         <td>Mahabubnagar I Town</td>
+                         <td>sho-1town-mbnr@tspolice.gov.in</td>
+                         <td>8712659311</td>
+                     </tr>
+                     <tr>
+                         <td>5</td>
+                         <td>Mahabubnagar II Town</td>
+                         <td>sho-2town-mbnr@tspolice.gov.in</td>
+                         <td>8712659312</td>
+                     </tr>
+                     <tr>
+                        <td>6</td>
+                        <td>Mahabubnagar Rural CIP Office</td>
+                        <td>ci-pmbnrr-mbnr@tspolice.gov.in</td>
+                        <td>8712659313</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>MBNR Rural PS</td>
+                        <td>sho-mbnrr-mbnr@tspolice.gov.in</td>
+                        <td>8712659336</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Koilkonda</td>
+                        <td>sho-koil-mbnr@tspolice.gov.in</td>
+                        <td>8712659338</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Hanwada</td>
+                        <td>sho-hwd-mbnr@tspolice.gov.in</td>
+                        <td>8712659339</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Mohammadabad</td>
+                        <td>sho-mobd-mbnr@tspolice.gov.in</td>
+                        <td>8712659341</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>Nawabpet PS</td>
+                        <td>sho-nwp-mbnr@tspolice.gov.in</td>
+                        <td>8712659340</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>Jadcherla Rural CIP Office</td>
+                        <td>ci-pjdl-mbnr@tspolice.gov.in</td>
+                        <td>8712659315</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>Jadcherla</td>
+                        <td>sho-jdl-mbnr@tspolice.gov.in</td>
+                        <td>8712659314</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>Balnagar</td>
+                        <td>sho-blnr-mbnr@tspolice.gov.in</td>
+                        <td>8712659346</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>Rajapur</td>
+                        <td>sho-rjpr-mbnr@tspolice.gov.in</td>
+                        <td>8712659347</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>Midjil</td>
+                        <td>sho-mdj-mbnr@tspolice.gov.in</td>
+                        <td>8712659348</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td>Boothpur CIP Office</td>
+                        <td>ci-pbhutpur-mbnr@tspolice.gov.in</td>
+                        <td>8712659316</td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td>Annasagar</td>
+                        <td>sho-ansg-mbnr@tspolice.gov.in</td>
+                        <td>8712659350</td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td>Moosapet</td>
+                        <td>sho-mspt-mbnr@tspolice.gov.in</td>
+                        <td>8712659352</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>Addakal</td>
+                        <td>sho-add-mbnr@tspolice.gov.in</td>
+                        <td>8712659353</td>
+                    </tr>
+                    <tr>
+                        <td>21</td>
+                        <td>Deverkadra</td>
+                        <td>sho-dvk-mbnr@tspolice.gov.in</td>
+                        <td>8712659349</td>
+                    </tr>
+                    <tr>
+                        <td>22</td>
+                        <td>Chinna Chinthakunta</td>
+                        <td>sho-cck-mbnr@tspolice.gov.in</td>
+                        <td>8712659354</td>
+                    </tr>
+                    <tr>
+                        <td>23</td>
+                        <td>Women PS</td>
+                        <td>ci-pwps-mbnr@tspolice.gov.in</td>
+                        <td>8712659318</td>
+                    </tr>
+                    <tr>
+                        <td>24</td>
+                        <td>Traffic</td>
+                        <td>ci-ptrf-mbnr@tspolice.gov.in</td>
+                        <td>8712659317</td>
+                    </tr>
+                    <tr>
+                        <td>25</td>
+                        <td>SB Office</td>
+                        <td>dsb-mbnr-mbnr@tspolice.gov.in</td>
+                        <td>8712659366</td>
+                    </tr>
+                    <tr>
+                        <td>26</td>
+                        <td>DCRB</td>
+                        <td>dsp-dcrb-mbnr@tspolice.gov.in</td>
+                        <td>8712659303</td>
+                    </tr>
+                    <tr>
+                        <td>27</td>
+                        <td>DTC</td>
+                        <td>dtc-mbnr@tspolice.gov.in</td>
+                        <td>8712659307</td>
+                    </tr>
+                    <tr>
+                        <td>28</td>
+                        <td>AO DPO</td>
+                        <td>ao-dpo-mbnr@tspolice.gov.in</td>
+                        <td>8712659309</td>
+                    </tr>
+                    <tr>
+                     <td>29</td>
+                        <td>Police control room</td>
+                        <td>ci-pccs-mbnr@tspolice.gov.in</td>                        
+                        <td>8712659360</td>
+                     </tr>
+                     <tr>
+                        <td>30</td>
+                        <td>CCS</td>
+                        <td>dsp-ccs-mbnr@tspolice.gov.in</td>
+                        <td>8712659306</td>
+                     </tr>
+                     <tr>
+                        <td>31</td>
+                        <td>IT-CELL</td>
+                        <td>itcell-mbnr@tspolice.gov.in</td>                        
+                        <td>8712659358</td>
+                     </tr>
+                    
+                 </table>
+
+
+
+
+
+
+
+
+
+
+
+               </div>
+            </div>
+         </section>
+         </br></br></br></br></br></br>
+         <!--/#paragraph-->
+
+
+         <!--/#list-->
+
+
+         <!--/#article-->
+
+         <!--/.body-wrapper-->
+
+
+
+         <!--<section class="wrapper carousel-wrapper">
+  <div class="container common-container four_content carousel-container">
+    <div id="flexCarousel" class="flexslider carousel">
+      <ul class="slides">
+        <li><a target="_blank" href="http://digitalindia.gov.in/" title="Digital India, External Link that opens in a new window"><img src="assets/images/carousel/digital-india.png" alt="Digital India"></a></li>
+
+       <li><a target="_blank" href="http://www.makeinindia.com/" title="Make In India, External Link that opens in a new window"> <img src="assets/images/carousel/makeinindia.png" alt="Make In India"></a></li>
+        
+
+         <li><a target="_blank" href="http://india.gov.in/" title="National Portal of India, External Link that opens in a new window"><img src="assets/images/carousel/india-gov.png" alt="National Portal of India"></a></li>
+
+       <li><a target="_blank" href="http://goidirectory.nic.in/" title="GOI Web Directory, External Link that opens in a new window"><img src="assets/images/carousel/goidirectory.png" alt="GOI Web Directory"></a></li>
+        <li><a target="_blank" href="https://data.gov.in/" title="Data portal, External Link that opens in a new window" ><img src="assets/images/carousel/data-gov.png" alt="Data portal"></a></li>
+        
+        <li><a target="_blank" href="https://mygov.in/" title="MyGov, External Link that opens in a new window"><img src="assets/images/carousel/mygov.png" alt="MyGov Portal"></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!--/.carousel-wrapper-->
+
+
+         <footer class="wrapper footer-wrapper">
+            <div class="footer-top-wrapper">
+               <div class="container common-container four_content footer-top-container">
+                  <ul>
+                     <li><a href="#">Website Policies</a></li>
+                     <li><a href="#">Help</a></li>
+                     <li><a href="#">Contact Us</a></li>
+                     <li><a href="#">Terms and Conditions </a></li>
+                     <li><a href="#">Feedback</a></li>
+                     <li><a href="#">Web Information Manager</a></li>
+                     <li><a href="#">Visitor Analytics</a></li>
+                     <li><a href="#">FAQ</a></li>
+                     <li><a href="#">Disclaimer</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="footer-bottom-wrapper">
+               <div class="container common-container four_content footer-bottom-container">
+                  <div class="footer-content clearfix">
+                     <div class="copyright-content">
+                        <CENTER> <strong>COPYRIGHT © 2025s IT-Cell OF MAHABUBNAGAR DISTRICT POLICE.</br>
+                              Content on this website is published and managed by IT Cell Mahabubnagar Police, For any
+                              queries and suggestions regarding this website please Email to
+                              itcell-mbnr@tspolice.gov.in</br>
+                           </strong> <span>Hosted by <a target="_blank"
+                                 title="NIC, External Link that opens in a new window"
+                                 href="http://www.nic.in/"><strong>National Informatics Centre</strong></a><strong> (
+                                 NIC )</strong></span> </CENTER>
+                     </div>
+                     <div class="logo-cmf">
+                        <a target="_blank" href="http://cmf.gov.in/" title="External link that opens in new tab"><img
+                              alt="cmg logo" src="assets/images/cmf-logo.png"></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+         <!--/.footer-wrapper-->
+         <!-- jQuery v1.11.1 -->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"
+            integrity="sha512-nhY06wKras39lb9lRO76J4397CH1XpRSLfLJSftTeo3+q2vP7PaebILH9TqH+GRpnOhfAGjuYMVmVTOZJ+682w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+         <!-- jQuery Migration v1.4.1 -->
+         <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+         <!-- jQuery v3.6.0 -->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+         <!-- jQuery Migration v3.4.0 -->
+         <script src="https://code.jquery.com/jquery-migrate-3.4.0.min.js"></script>
+
+         <script src="assets/js/jquery-accessibleMegaMenu.js"></script>
+         <script src="assets/js/framework.js"></script>
+         <script src="assets/js/jquery.flexslider.js"></script>
+         <script src="assets/js/font-size.js"></script>
+         <script src="assets/js/swithcer.js"></script>
+         <script src="theme/js/ma5gallery.js"></script>
+         <script src="assets/js/megamenu.js"></script>
+         <script src="theme/js/easyResponsiveTabs.js"></script>
+         <script src="theme/js/custom.js"></script>
+         <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+</body>
+
+</html>
